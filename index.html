@@ -7,7 +7,6 @@
 
   <meta charset="utf-8" />
 
-
   <link rel="stylesheet" href="./CSS/style.css">
 
   <!-- Code pour lecture sur pc/tablette/telephone -->
@@ -25,18 +24,24 @@
 <body>
 
   <header>
-    <img class="logo" src="./images/logo/Booki.png" alt="logo" />
-    <nav class="navheader">
-      <ul>
-        <li><a href="">Hébergement</a></li>
-        <li><a href="">Activités</a></li>
+    <div class="logo">
+      <img src="./images/logo/Booki.png" alt="logo" />
+    </div>
+    <nav>
+      <ul class="conthead">
+        <div class="Head">
+          <li class="bleu"><a href="">Hébergement</a></li>
+        </div>
+        <div class="Head">
+          <li><a href="">Activités</a></li>
+        </div>
       </ul>
     </nav>
   </header>
 
   <nav>
 
-    <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <span>En plein centre ville ou en pleine nature</span>
 
     <form>
@@ -46,8 +51,8 @@
     </form>
 
     <div>
-      <p>Filtres</p>
-      <ul>
+      <ul class="filtre">
+        <li><strong>Filtres</strong></li>
         <li><a href=""><i class="fa-solid fa-money-bill-wave"></i>Economique</a></li>
         <li><a href=""><i class="fa-solid fa-child-reaching"></i>Familial</a></li>
         <li><a href=""><i class="fa-solid fa-heart"></i>Romantique</a></li>
@@ -63,10 +68,10 @@
   </nav>
 
   <main>
-    <section>
-      <h2>Hébergements à Marseille</h2>
+    <h2>Hébergements à Marseille</h2>
+    <section class="cards">
       <article>
-        <a href="">
+        <a class="hm" href="">
           <img class="Auberge_la_cannebiere" src="images/hebergements/4_small/Auberge_la_cannebiere.jpg">
           <div>
             <div>
@@ -181,9 +186,10 @@
       </article>
     </section>
 
-    <aside>
+
+    <h3>Les plus populaires</h3>
+    <aside class="sidebar">
       <div>
-        <h3>Les plus populaires</h3>
         <i class="fa-light fa-chart-line-up"></i>
       </div>
 
@@ -248,9 +254,9 @@
     <div>
       <h3>Afficher plus</h3>
     </div>
-    <section>
-      <h2>Activités à Marseille</h2>
 
+    <h2>Activités à Marseille</h2>
+    <section class="am">
       <article>
         <a href="">
           <img class="Vieux_Port" src="./images/activites/4_small/Hôtel du vieux port.jpg" i>
@@ -308,10 +314,10 @@
 
   </main>
 
-  <footer>
+  <footer class="footer">
     <div>
-      <h3>A propos</h3>
       <ul>
+        <li><h3>A propos</h3></li>
         <li>Fonctionnement du site</li>
         <li>Conditions générales de vente</li>
         <li>Données et confidentialité</li>
@@ -319,16 +325,16 @@
     </div>
 
     <div>
-      <h3>Nos hébergements</h3>
       <ul>
+        <li><h3>Nos hébergements</h3></li>
         <li>Charte qualité</li>
         <li>Soumettre votre hôtel</li>
       </ul>
     </div>
 
     <div>
-      <h3>Assistance</h3>
       <ul>
+        <li><h3>Assistance</h3></li>
         <li>Centre d'aide</li>
         <li>Nous contacter</li>
       </ul>

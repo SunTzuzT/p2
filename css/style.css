@@ -1,13 +1,109 @@
-.head{
+body{
+
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.filtre{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
 
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.conthead{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+
+    
+.Head{
+    
+    padding: 20px;
+    text-align: right;
+    
+    
+}
+
+.bleu{
+
+    color: blue;
+}
+
+
+.filtre{
+    display: flex;
+    justify-content: space-between;
     
 }
 
 
+img{
 
-.Auberge_la_cannebiere{
+    width: 30%;
+}
+
+.cards{
+    column-count: 3;
+    width: 75%;
+    
+    
+}
+
+article{
+    display: flex;
+    ;
+}
+
+.sidebar{
 
     width: 25%;
+}
+
+.cards, .sidebar{
+    display: flex;
+    justify-content: center;
+}
+
+h3, i, span{
+
+    font-size: small;
+}
+
+i{
+    color: #0065FC;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    
+    
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.am{
+    display: flex;
+    justify-content: space-between;
+    
 }
