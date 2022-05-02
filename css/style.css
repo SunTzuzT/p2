@@ -1,109 +1,81 @@
-body{
+.bleu {
+
+    color: blue;
+}
+
+h3,
+i,
+span {
+
+    font-size: small;
+}
+
+i {
+    color: #0065FC;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 20%;
+}
+
+}
+header {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+
+body {
 
     font-family: 'Raleway', sans-serif;
     background-color: #F2F2F2;
 }
 
-.filtre{
+.filtre {
+
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
     font-weight: bold;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-header{
-
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    
-}
-
-.conthead{
-
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    
-}
-
-    
-.Head{
-    
-    padding: 20px;
-    text-align: right;
-    
-    
-}
-
-.bleu{
-
-    color: blue;
+    padding-right: 60%;
 }
 
 
-.filtre{
-    display: flex;
-    justify-content: space-between;
-    
-}
 
-
-img{
-
-    width: 30%;
-}
-
-.cards{
-    column-count: 3;
-    width: 75%;
-    
-    
-}
-
-article{
-    display: flex;
-    ;
-}
-
-.sidebar{
-
+.hebergements{
     width: 25%;
+    display: inline-flex;
+    
 }
 
-.cards, .sidebar{
-    display: flex;
-    justify-content: center;
+.cartes-hebergements{
+    display: flex; 
+    flex-wrap: wrap;
 }
 
-h3, i, span{
 
-    font-size: small;
-}
 
-i{
-    color: #0065FC;
-}
 
-.footer{
+
+footer{
 
     display: flex;
     justify-content: space-between;
     width: 70%;
-    
-    
-    
-}
 
-ul{
-    list-style-type: none;
-}
 
-.am{
-    display: flex;
-    justify-content: space-between;
-    
+
 }
