@@ -8,6 +8,7 @@
   <meta charset="utf-8" />
 
   <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="normalize" href="./CSS/Normalize.css">
 
   <!-- Code pour lecture sur pc/tablette/telephone -->
 
@@ -24,23 +25,17 @@
 <body>
 
   <header>
-    <div class="logo">
-      <img src="./images/logo/Booki.png" alt="logo" />
-    </div>
+    <img src="./images/logo/Booki.png" alt="logo" />
     <nav>
       <ul class="conthead">
-        <div class="Head">
-          <li class="bleu"><a href="">Hébergement</a></li>
-        </div>
-        <div class="Head">
-          <li><a href="">Activités</a></li>
+        <li class="bleu"><a href="">Hébergement</a></li>
+        <li><a href="">Activités</a></li>
         </div>
       </ul>
     </nav>
   </header>
 
-  <nav>
-
+  <main>
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <span>En plein centre ville ou en pleine nature</span>
 
@@ -65,13 +60,11 @@
       <span>Plus de 500 logements sont disponibles dans cette ville</span>
     </div>
 
-  </nav>
 
-  <main>
-    <h2>Hébergements à Marseille</h2>
-    <section class="cards">
-      <article>
-        <a class="hm" href="">
+    <section class="cartes-hebergements">
+      <h2>Hébergements à Marseille</h2>
+      <article class="hebergements">
+        <a class="cards" href="">
           <img class="Auberge_la_cannebiere" src="images/hebergements/4_small/Auberge_la_cannebiere.jpg">
           <div>
             <div>
@@ -87,11 +80,10 @@
             </div>
           </div>
         </a>
-
       </article>
 
-      <article>
-        <a href="">
+      <article class="hebergements">
+        <a class="cards" href="">
           <img class="Hotel_du_port" src="./images/hebergements/4_small/Hôtel du port.jpg">
           <div>
             <div>
@@ -109,8 +101,8 @@
         </a>
       </article>
 
-      <article>
-        <a href="">
+      <article class="hebergements">
+        <a class="cards" href="">
           <img class="Hôtel_les_mouettes" src="./images/hebergements/4_small/Hôtel les mouettes.jpg">
           <div>
             <div>
@@ -128,8 +120,8 @@
         </a>
       </article>
 
-      <article>
-        <a href="">
+      <article class="hebergements">
+        <a class="cards" href="">
           <img class="Hôtel_de_la mer" src="./images/hebergements/4_small/Hôtel de la mer.jpg">
           <div>
             <div>
@@ -147,8 +139,8 @@
         </a>
       </article>
 
-      <article>
-        <a href="">
+      <article class="hebergements">
+        <a class="cards" href="">
           <img class="Auberge_le_panier" src="./images/hebergements/4_small/Auberge le panier.jpg">
           <div>
             <div>
@@ -166,8 +158,8 @@
         </a>
       </article>
 
-      <article>
-        <a href="">
+      <article class="hebergements">
+        <a class="cards" href="">
           <img class="Hôtel_chez_Amina" src="./images/hebergements/4_small/Hôtel chez Amina.jpg">
           <div>
             <div>
@@ -184,16 +176,16 @@
           </div>
         </a>
       </article>
-    </section>
 
 
-    <h3>Les plus populaires</h3>
-    <aside class="sidebar">
+
+
       <div>
+        <h3>Les plus populaires</h3>
         <i class="fa-light fa-chart-line-up"></i>
       </div>
 
-      <article>
+      <article class="hebergements">
         <a href="">
           <img class="Hôtel_le_soleil_du_matin" src="./images/hebergements/4_small/Hôtel le soleil du matin.jpg">
           <div>
@@ -212,7 +204,7 @@
         </a>
       </article>
 
-      <article>
+      <article class="hebergements">
         <a href="">
           <img class="Au_coeur_de_l'eau_Chambres_d'hôtes"
             src="./images/hebergements/4_small/Au coeur de l'eau Chambres d'hôtes.jpg">
@@ -232,7 +224,7 @@
         </a>
       </article>
 
-      <article>
+      <article class="hebergements">
         <a href="">
           <img class="Hôtel_tout_bleu_et_Blanc" src="./images/hebergements/4_small/Hôtel tout bleu et blanc.jpg" i>
           <div>
@@ -250,14 +242,13 @@
           </div>
         </a>
       </article>
-    </aside>
-    <div>
-      <h3>Afficher plus</h3>
-    </div>
+    </section>
+    <h3>Afficher plus</h3>
 
-    <h2>Activités à Marseille</h2>
     <section class="am">
       <article>
+        <h2>Activités à Marseille</h2>
+        </br>
         <a href="">
           <img class="Vieux_Port" src="./images/activites/4_small/Hôtel du vieux port.jpg" i>
           <div>
@@ -317,7 +308,9 @@
   <footer class="footer">
     <div>
       <ul>
-        <li><h3>A propos</h3></li>
+        <li>
+          <h3>A propos</h3>
+        </li>
         <li>Fonctionnement du site</li>
         <li>Conditions générales de vente</li>
         <li>Données et confidentialité</li>
@@ -326,7 +319,9 @@
 
     <div>
       <ul>
-        <li><h3>Nos hébergements</h3></li>
+        <li>
+          <h3>Nos hébergements</h3>
+        </li>
         <li>Charte qualité</li>
         <li>Soumettre votre hôtel</li>
       </ul>
@@ -334,7 +329,9 @@
 
     <div>
       <ul>
-        <li><h3>Assistance</h3></li>
+        <li>
+          <h3>Assistance</h3>
+        </li>
         <li>Centre d'aide</li>
         <li>Nous contacter</li>
       </ul>
